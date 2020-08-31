@@ -20,4 +20,4 @@ $(call inherit-product, device/samsung/pontesolo/full_pontesolo.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := SM-R750
-PRODUCT_NAME := full_pontesolo
+PRODUCT_NAME := lineage_pontesolo
