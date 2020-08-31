@@ -16,5 +16,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_pontesolo.mk
 
 COMMON_LUNCH_CHOICES += \
-    full_pontesolo-eng \
-    full_pontesolo-userdebug
+    lineage_pontesolo-eng \
+    lineage_pontesolo-userdebug
