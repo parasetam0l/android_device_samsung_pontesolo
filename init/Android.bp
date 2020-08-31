@@ -9,7 +9,7 @@ cc_library_static {
         "-Wall",
         "-DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"",
     ],
-    srcs: ["libinit_pontesolo.c"],
+    srcs: ["init_pontesolo.c"],
     whole_static_libs: ["libbase"],
     recovery_available: true,
 }
