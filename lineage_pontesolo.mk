@@ -16,8 +16,14 @@
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/pontesolo/full_pontesolo.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Release name
-PRODUCT_RELEASE_NAME := SM-R750
-PRODUCT_NAME := lineage_pontesolo
+# Inherit from pontesolo device
+$(call inherit-product, device/samsung/pontesolo/device.mk)
+
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := pontesolo
+PRODUCT_NAME := full_pontesolo
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-R750
+PRODUCT_MANUFACTURER := samsung
