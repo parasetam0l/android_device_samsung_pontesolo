@@ -47,6 +47,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
 TARGET_KERNEL_SOURCE := kernel/samsung/pontesolo
 TARGET_KERNEL_CONFIG := android_b3_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
+BOARD_KERNEL_IMAGE_NAME := Image
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
