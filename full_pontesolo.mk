@@ -20,7 +20,7 @@ $(call inherit-product, device/samsung/pontesolo/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pontesolo
-PRODUCT_NAME := full_pontesolo
+PRODUCT_NAME := lineage_pontesolo
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-R750
 PRODUCT_MANUFACTURER := samsung
