@@ -32,7 +32,7 @@ BOARD_BLUETOOTH_USES_HCIATTACH_PROPERTY := false
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_pontesolo
+#TARGET_INIT_VENDOR_LIB := libinit_pontesolo
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/pontesolo/init/init_pontesolo.c
 #TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_pontesolo.c
 TARGET_UNIFIED_DEVICE := true
