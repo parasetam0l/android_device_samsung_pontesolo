@@ -33,9 +33,8 @@
 #include "property_service.h"
 #include "log.h"
 #include "util.h"
-#include "init_msm.h"
 
-void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *board_type)
+void vendor_load_properties()
 {
     char platform[PROP_VALUE_MAX];
     char bootloader[PROP_VALUE_MAX];
