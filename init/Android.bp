@@ -12,4 +12,8 @@ cc_library_static {
     srcs: ["init_pontesolo.cpp"],
     whole_static_libs: ["libbase"],
     recovery_available: true,
+    static_libs: [
+         "libbase",
+         "libselinux"
+    ],
 }
