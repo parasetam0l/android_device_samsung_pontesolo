@@ -1,3 +1,2 @@
-LOCAL_STATIC_LIBRARIES := \
-libbase \
-libselinux
+LOCAL_STATIC_LIBRARIES += libbase
+LOCAL_STATIC_LIBRARIES += libselinux
