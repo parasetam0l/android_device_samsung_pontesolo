@@ -30,7 +30,7 @@
 #include <stdlib.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
-#include <cutil/properties.h>
+#include <cutils/properties.h>
 
 #include "vendor_init.h"
 #include "property_service.h"
