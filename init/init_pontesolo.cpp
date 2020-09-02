@@ -42,15 +42,15 @@ void vendor_load_properties()
     char bootloader[PROP_VALUE_MAX];
     char device[PROP_VALUE_MAX];
     char devicename[PROP_VALUE_MAX];
-    int rc;
+    //int rc;
 
     //UNUSED(msm_id);
     //UNUSED(msm_ver);
     //UNUSED(board_type);
 
-    rc = property_get("ro.board.platform", platform);
+    /*rc = property_get("ro.board.platform", platform);
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
-        return;
+        return;*/
 
     property_get("ro.bootloader", bootloader);
 
