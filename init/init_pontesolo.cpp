@@ -53,7 +53,7 @@ void vendor_load_properties()
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;*/
 
-    property_get("ro.bootloader", bootloader);
+    property_get("ro.bootloader", bootloader, "def");
 
    /* pontesolo */
      property_set("ro.build.fingerprint", "samsung/pontesoloxx/pontesolo:4.4.2/KOT49H/I9301IXXUANL1:user/release-keys");
@@ -63,7 +63,7 @@ void vendor_load_properties()
      property_set("telephony.lteOnGsmDevice", "0");
      property_set("ro.telephony.default_network", "0");
     // property_set("ro.telephony.ril_class", "SamsungMSM8226RIL");
-    property_get("ro.product.device", device);
+    property_get("ro.product.device", device, "pontesolo");
     strlcpy(devicename, device, sizeof(devicename));
     //INFO("Found bootloader id %s setting build properties for %s device\n", bootloader, devicename);
 }
