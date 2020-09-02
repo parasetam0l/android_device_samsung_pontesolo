@@ -221,12 +221,12 @@ int ContextSensor::enable(int32_t handle, int en)
 			}
 			if (en){
 				ALOGE("SSPContext: Step Counter ON");
-				ret = write(dev_fd, SSP_Step_Counter_On, sizeof(SSP_Pedometer_01_On));
-				ret = write(dev_fd, SSP_Step_Counter_Notify_Req, sizeof(SSP_Pedometer_02_On));
+				//ret = write(dev_fd, SSP_Step_Counter_On, sizeof(SSP_Pedometer_01_On));
+				//ret = write(dev_fd, SSP_Step_Counter_Notify_Req, sizeof(SSP_Pedometer_02_On));
 			//	ret = write(dev_fd, SSP_Pedometer_03_On, sizeof(SSP_Pedometer_03_On));
 			}else{
 				ALOGE("SSPContext: Step Counter OFF");
-				ret = write(dev_fd, SSP_Step_Counter_Off, sizeof(SSP_Pedometer_01_On));
+				//ret = write(dev_fd, SSP_Step_Counter_Off, sizeof(SSP_Pedometer_01_On));
 				//ret = write(dev_fd, SSP_Step_Counter_Notify_Req, sizeof(SSP_Pedometer_02_On));
 				//ret = write(dev_fd, SSP_Pedometer_03_Off, sizeof(SSP_Pedometer_03_Off));
 			}
