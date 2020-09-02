@@ -44,9 +44,9 @@ void vendor_load_properties()
     char devicename[PROP_VALUE_MAX];
     int rc;
 
-    UNUSED(msm_id);
-    UNUSED(msm_ver);
-    UNUSED(board_type);
+    //UNUSED(msm_id);
+    //UNUSED(msm_ver);
+    //UNUSED(board_type);
 
     rc = property_get("ro.board.platform", platform);
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
