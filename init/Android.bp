@@ -10,7 +10,7 @@ cc_library_static {
         "-DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"",
     ],
     srcs: ["init_pontesolo.cpp"],
-    whole_static_libs: ["libbase"],
+    whole_static_libs: ["libbase","libcutils"],
     recovery_available: true,
     static_libs: [
          "libbase",
