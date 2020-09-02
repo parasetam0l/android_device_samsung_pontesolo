@@ -31,7 +31,7 @@
 
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
+//#include "log.h"
 #include "util.h"
 
 void vendor_load_properties()
@@ -62,5 +62,5 @@ void vendor_load_properties()
     // property_set("ro.telephony.ril_class", "SamsungMSM8226RIL");
     property_get("ro.product.device", device);
     strlcpy(devicename, device, sizeof(devicename));
-    INFO("Found bootloader id %s setting build properties for %s device\n", bootloader, devicename);
+    //INFO("Found bootloader id %s setting build properties for %s device\n", bootloader, devicename);
 }
