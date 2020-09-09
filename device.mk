@@ -25,9 +25,10 @@ TARGET_SCREEN_WIDTH  := 360
 $(call inherit-product, vendor/samsung/pontesolo/pontesolo-vendor.mk)
 
 # Audio configuration
+USE_XML_AUDIO_POLICY_CONF := 1
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/audio/audio_policy.xml:system/etc/audio_policy.xml \
+    $(LOCAL_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
 
