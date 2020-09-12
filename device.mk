@@ -81,5 +81,9 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
    $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
 
+# http://b/15193147
+# TODO(danalbert): Remove this once stlport is dead and gone.
+PRODUCT_PACKAGES +=  libstlport
+
 # Inherit from qcom-common
 $(call inherit-product, device/samsung/msm8226-common/msm8226.mk)
