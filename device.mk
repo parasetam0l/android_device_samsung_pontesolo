@@ -85,5 +85,9 @@ PRODUCT_COPY_FILES += \
 # TODO(danalbert): Remove this once stlport is dead and gone.
 PRODUCT_PACKAGES +=  libstlport
 
+# BoringSSL Hacks
+PRODUCT_PACKAGES += \
+	libboringssl-compat
+
 # Inherit from qcom-common
 $(call inherit-product, device/samsung/msm8226-common/msm8226.mk)
