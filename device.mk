@@ -32,8 +32,8 @@ PRODUCT_COPY_FILES += \
 
 
 # Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+#PRODUCT_PACKAGES += \
+#    SamsungDoze
 
 # Lights
 PRODUCT_PACKAGES += \
