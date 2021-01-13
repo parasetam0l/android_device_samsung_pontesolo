@@ -1,2 +1,2 @@
-add_lunch_combo cm_pontesolo-eng
-add_lunch_combo cm_pontesolo-userdebug
+add_lunch_combo lineage_pontesolo-eng
+add_lunch_combo lineage_pontesolo-userdebug
