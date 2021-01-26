@@ -14,3 +14,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_pontesolo.mk
+
+COMMON_LUNCH_CHOICES += \
+    lineage_pontesolo-eng \
+    lineage_pontesolo-userdebug
